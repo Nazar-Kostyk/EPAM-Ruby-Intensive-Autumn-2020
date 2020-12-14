@@ -1,13 +1,13 @@
 text1 = 'Hello'
 text2 = 'World'
-puts "#{text1}, #{text2.downcase}!"
+puts text1 + ' ' + text2.downcase
 puts
 
 var = 'hello'
 puts var[0], var[1], var[4]
 puts
 
-[5, 0, -3, 2].each { |a| puts "#{a} - #{a.between?(0, 5) ? 'Correct!' : 'Incorrect!'}" }
+[-5, 0, -3, 2].each { |a| puts "#{a} - #{a.between?(1, 4) ? 'Correct!' : 'Incorrect!'}" }
 puts
 
 min = rand(60)
